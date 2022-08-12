@@ -1,11 +1,11 @@
-# Hot reload Chrome Extension
-Watcher, hot reload, monitoring changes in the development of Google Chrome extensions.
+# Расширение Chrome выполняет горячую перезагрузку вкладки при изменении файлов в редакторе
 
-## How To Use
+При разработке расширений для Google Chrome мониторит изменения файлов расширения и выполняет перезагрузку страницы. 
 
-1. Drop hot-reloader.js to your extension's directory.
+## Использование:
 
-2. Put the following into your `manifest.json` file:
+1. Разместите hot-reloader.js в каталоге вашего расширения.
+2. Включите hot-reloader.js в бэкграунд скрипты разрабатываемого расширения в файле `manifest.json`:
 
 ```json
 "background": { 
